@@ -1,0 +1,104 @@
+.protect_taital{
+  /* font-style:oblique; */
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #081419;
+  font-weight: bold;
+  text-align: center;
+}
+
+.protect_text {
+  /* font-style:oblique; */
+  width: 90%;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #081419;
+  text-align: center;
+}
+.hands_text {
+  width: 90%;
+  font-size:24px;
+  color: #081419;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.hands_text a{
+  color: #081419;
+}
+
+.hands_text a:hover{
+  color: #a258ed;
+}
+
+
+.chart-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart-button,
+.download-button {
+padding: 10px 20px;
+margin-right: 50%px;
+margin-left: 50%;
+margin-top: 10px;
+background-color: #4CAF50;
+border: none;
+color: white;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Added box-shadow */
+}
+
+.chart-button:hover,
+.download-button:hover {
+background-color: #b377d8;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adjusted box-shadow on hover */
+}
+
+
+
+
+.update_section {
+background-color: #f9f9f9; /* Light gray background color */
+padding: 50px 0; /* Add some padding */
+text-align: center; /* Center align the content */
+}
+
+.infocontainer {
+max-width: 800px; /* Limit width for better readability */
+margin: 0 auto; /* Center align the container */
+}
+
+.update_taital {
+font-size: 32px; /* Large font size for the title */
+color: #333; /* Dark gray text color */
+}
+
+.lorem_text {
+margin-top: 20px; /* Add some space below the title */
+font-size: 18px; /* Medium font size for the text */
+color: #666; /* Light gray text color */
+}
+
+.register-button {
+background-color: #4a80dd; /* Blue background color */
+color: #fff; /* White text color */
+border: none; /* Remove button border */
+border-radius: 25px; /* Rounded button corners */
+padding: 15px 30px; /* Add padding to button */
+font-size: 18px; /* Medium font size */
+cursor: pointer; /* Show pointer cursor on hover */
+transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition on hover */
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.register-button:hover {
+background-color: #431877; /* Darker blue color on hover */
+box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
